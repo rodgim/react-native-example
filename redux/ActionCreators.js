@@ -32,6 +32,24 @@ export const addComments = (comments) => ({
     payload: comments
 });
 
+export const addComment = (comment) => ({
+    type: ActionTypes.ADD_COMMENT,
+    payload: comment
+});
+
+export const postComment = (dishId, rating, author, comment) => (dispatch) => {
+    var newComment = {
+        dishId: dishId,
+        rating: rating,
+        author: author,
+        comment: comment
+    };
+
+    setTimeout(() => {
+        dispatch(addComment(newComment))
+    }, 2000);
+};
+
 export const fetchDishes = () => (dispatch) => {
     dispatch(dishesLoading());
 
