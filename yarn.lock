@@ -2960,6 +2960,11 @@ expo-font@~8.4.0:
     fbjs "1.0.0"
     fontfaceobserver "^2.1.0"
 
+expo-image-manipulator@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/expo-image-manipulator/-/expo-image-manipulator-9.0.0.tgz#0b6ad350b79e40a44164b6333e806a2ef6fc9708"
+  integrity sha512-hziIcUONz7JtsonEehuYvXk8xCSGDHR6A4ynZcUTbZQCzxWYu7Xq2wahREz/DBdu0vz0LBw38wFLuSpfgaFojQ==
+
 expo-image-picker@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-10.0.0.tgz#24a3fd7335094191f148c3d2fbf9b496c500658f"
